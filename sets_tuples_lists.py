@@ -13,7 +13,7 @@
 #     print(fruit)
 # #interation
 # #DONT HAVE A ONE LETTER VARIABLE (name it after the variable but singular)
-# #loops through the wholem thing
+# #loops through the whole thing
 
 # print(dir(fruits)) # DIR lists all the attributes for the list
 
@@ -38,3 +38,33 @@
 # fruits.reverse() # reverse
 # fruits.clear # all the elements are gone/cleared
 # print(fruits.index("apple"))
+
+cars=["Ford", "Volvo", "BMW", "Cadillac", "Chevrolet", "Porsche", "Jaguar" ]
+# add 4 new cars in the list
+cars.append("Honda")
+#print out the list of cars in an f-string
+print(f"The acrs in the list are{cars}")
+# replace the last element in the list
+cars[-1]="Austin Martin"
+#print out the list of cars in an f-string
+print(f"The acrs in the list are{cars}")
+#replace 3rd element in the list with another car
+cars[2]="Genesis"
+#print out the list of cars in a f-string
+print(f"The acrs in the list are{cars}")
+#remove 3rd element in the list
+cars.remove("Cadillac")
+#print out the list of cars in an f-string
+print(f"The acrs in the list are{cars}")
+#check if the list contains the car "Ford"
+print("Ford" in cars)
+#print out the results of cars in an f-string
+print(f"The acrs in the list are{cars}")
+
+for car in cars:
+    requestCar= input("Enter a car: ")
+    cars.append(requestCar)
+    print(f'The cars in the list are: {cars}')
+    if len(cars) == 10:
+        print("You have reached the maximum nummbers of cars")
+        break
