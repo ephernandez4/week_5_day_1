@@ -39,32 +39,54 @@
 # fruits.clear # all the elements are gone/cleared
 # print(fruits.index("apple"))
 
-cars=["Ford", "Volvo", "BMW", "Cadillac", "Chevrolet", "Porsche", "Jaguar" ]
-# add 4 new cars in the list
-cars.append("Honda")
-#print out the list of cars in an f-string
-print(f"The acrs in the list are{cars}")
-# replace the last element in the list
-cars[-1]="Austin Martin"
-#print out the list of cars in an f-string
-print(f"The acrs in the list are{cars}")
-#replace 3rd element in the list with another car
-cars[2]="Genesis"
-#print out the list of cars in a f-string
-print(f"The acrs in the list are{cars}")
-#remove 3rd element in the list
-cars.remove("Cadillac")
-#print out the list of cars in an f-string
-print(f"The acrs in the list are{cars}")
-#check if the list contains the car "Ford"
-print("Ford" in cars)
-#print out the results of cars in an f-string
-print(f"The acrs in the list are{cars}")
+# cars=["Ford", "Volvo", "BMW", "Cadillac", "Chevrolet", "Porsche", "Jaguar" ]
+# # add 4 new cars in the list
+# cars.append("Honda")
+# #print out the list of cars in an f-string
+# print(f"The acrs in the list are{cars}")
+# # replace the last element in the list
+# cars[-1]="Austin Martin"
+# #print out the list of cars in an f-string
+# print(f"The acrs in the list are{cars}")
+# #replace 3rd element in the list with another car
+# cars[2]="Genesis"
+# #print out the list of cars in a f-string
+# print(f"The acrs in the list are{cars}")
+# #remove 3rd element in the list
+# cars.remove("Cadillac")
+# #print out the list of cars in an f-string
+# print(f"The acrs in the list are{cars}")
+# #check if the list contains the car "Ford"
+# print("Ford" in cars)
+# #print out the results of cars in an f-string
+# print(f"The acrs in the list are{cars}")
 
-for car in cars:
-    requestCar= input("Enter a car: ")
-    cars.append(requestCar)
-    print(f'The cars in the list are: {cars}')
-    if len(cars) == 10:
-        print("You have reached the maximum nummbers of cars")
-        break
+# for car in cars:
+#     requestCar= input("Enter a car: ")
+#     cars.append(requestCar)
+#     print(f'The cars in the list are: {cars}')
+#     if len(cars) == 10:
+#         print("You have reached the maximum nummbers of cars")
+#         break
+
+    ###### CHALLENGE #####
+# create a list of friends
+friends=["Emily W"]
+# add 4 new friends to the list by requesting the user to enter names
+for friend in friends:
+         requestfriends= input("Enter a friends name : ")
+         friends.append(requestfriends)
+         print(f'The list of friends are: {friends}')
+         if len(friends) == 5:
+             print("You have reached the maximum nummbers of friends")
+             break
+    
+   
+    
+# print out the list of friends in a f_string
+# replace the last element in the list with another friends
+# print out the list of friends in a f_string
+# replace the 3rd element in the list with another string
+# print out the list of friends in a f_string
+# insert a new friends in the 2nd position
+# print out the list of friends in a f_string
